@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogLog.Web", "DogLog.Web\DogLog.Web.csproj", "{2C6DFD1F-B1B1-441D-89FE-7F215DA40EC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogLog.API", "DogLog.API\DogLog.API.csproj", "{D68EFA66-EEE5-42E4-8987-0D75ACAE829B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C6DFD1F-B1B1-441D-89FE-7F215DA40EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6DFD1F-B1B1-441D-89FE-7F215DA40EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6DFD1F-B1B1-441D-89FE-7F215DA40EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6DFD1F-B1B1-441D-89FE-7F215DA40EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D68EFA66-EEE5-42E4-8987-0D75ACAE829B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68EFA66-EEE5-42E4-8987-0D75ACAE829B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68EFA66-EEE5-42E4-8987-0D75ACAE829B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68EFA66-EEE5-42E4-8987-0D75ACAE829B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B2335C3-0CC2-4073-B163-6B6FBCA0C305}
+	EndGlobalSection
+EndGlobal
