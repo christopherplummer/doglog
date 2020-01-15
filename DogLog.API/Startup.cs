@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DogLog.API.Providers.TheDogAPI;
+using DogLog.API.Providers.Weather;
+using DogLog.API.Providers.Weather.Weatherbit;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +30,7 @@ namespace DogLog.API
         {
             services.AddControllers();
             services.AddTransient<ITheDogAPIClient, TheDogAPIClient>();
+            services.AddTransient<IWeatherbitClient, WeatherbitClient>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

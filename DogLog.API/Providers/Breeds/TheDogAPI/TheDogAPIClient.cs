@@ -10,7 +10,7 @@ namespace DogLog.API.Providers.TheDogAPI
         private const string BaseUrl = "https://api.thedogapi.com/v1";
         private const string ApiKey = "c1adc797-933b-4ff0-a67f-2627b369cfdc";
 
-        public async Task<IEnumerable<Breed>> GetAllDogs()
+        public async Task<IEnumerable<Breed>> GetAllBreeds()
         {
             var dogList = new List<Breed>();
 

@@ -23,7 +23,7 @@ namespace DogLog.API.Controllers
         [HttpGet]
         public async Task<IEnumerable<Breed>> GetAllBreeds()
         {
-            var dogList = await _dogApiClient.GetAllDogs();
+            var dogList = await _dogApiClient.GetAllBreeds();
 
             if (dogList == null) return new List<Breed>();
 
